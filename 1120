@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>IR</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<base href="/alrajhi_new/" />
+<meta name="ir-app/config/environment" content="%7B%22modulePrefix%22%3A%22ir-app%22%2C%22environment%22%3A%22production%22%2C%22baseURL%22%3A%22/alrajhi_new/%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%22%27none%27%22%2C%22script-src%22%3A%22%27self%27%20%27unsafe-inline%27%20%27unsafe-eval%27%20www.google-analytics.com%22%2C%22font-src%22%3A%22%27self%27%20data%3A%20use.typekit.net%20fonts.gstatic.com%22%2C%22img-src%22%3A%22%27self%27%20data%3A%20image/png%20www.google-analytics.com%22%2C%22connect-src%22%3A%22%27self%27%20www.google-analytics.com%20%20wss%3A//ir.directfn.com/%22%2C%22style-src%22%3A%22%27self%27%20%27unsafe-inline%27%20http%3A//fonts.googleapis.com%22%2C%22frame-src%22%3A%22%27self%27%20http%3A//dfnnet.directfn.com/ESTORERIA/Agreement/en/EULA.htm%20http%3A//docs.google.com%22%2C%22media-src%22%3A%22%27self%27%22%7D%2C%22APP%22%3A%7B%22name%22%3A%22ir-app%22%2C%22version%22%3A%221.0.33+8f879379%22%7D%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy-Report-Only%22%2C%22something%22%3A%22test%22%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+<link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAFo9M/3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozNzQ4YTJkNS01OGQ3LTlhNDQtOTQ3NS03YzNlZjBjNzA3ZTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTVBNEFDNTdDOUEwMTFFNTk1NENENkNGMDI5QTYwQ0QiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTVBNEFDNTZDOUEwMTFFNTk1NENENkNGMDI5QTYwQ0QiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjM3NDhhMmQ1LTU4ZDctOWE0NC05NDc1LTdjM2VmMGM3MDdlMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzQ4YTJkNS01OGQ3LTlhNDQtOTQ3NS03YzNlZjBjNzA3ZTMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz51tx9NAAACA0lEQVR42mJkOHXbk4GBYRuDTMGk/yAAEECMQJH/QBEGpv+mKgxrXt5hAAggBq5VB/7DwM77z/8z8Vz6wAADbgoSDAABBNcDBc+ZuB48ZQBhkBlAWpJJ6NglBhAGARDNKFazAa5FnpuNASCAGFn2XkA2AwMw8V26yQDCv530sdIs7M/+wlXD2Kx3P8L5jKIN258B2ZK4rAAIIJA/8CnwIuhIFra3HxhOOOiDObqiAnAJ/Y3HGO78+s3AxPH0JQPDh3cQDATzdx1i2HXsFMMxNyMGkBwL10Oggn//4DoT3ezAtHF4BgOXlDYD019WEVBwQDEDw4LNBxlevXnLUJ2dwQCSY/rLzsXAwMgIweCgY2a4++gZg7upBgNIDhQO+HzxAiDAGJmOXscbUATAcxbW95/I1QwCkkxsb94xwPBpDVGGH95mYBrEB7FBeNrPFwz/p3QxXNeThsgbK8P1sHDfeYwwz1IFQv/9y4AszsTOzSBk4g5kQEKS4cNbuDwT0zc2Bhhm+A8NSSAN5kPB/88fGQweXmBQlIb4duHR+3A9wGjgZoBhYFzA0xiED+XxiDCcl3FkePUWkhqCTRTgehhF67bAo+nH2e0Mf949Y2ARkmLgMPZk+LJ7LiRdq5oysCroMfy4tI/hz8v7DIws7AxctmFAmg0cz15ANSCVEiTGwFMgTgMAlxvVMiO2nnIAAAAASUVORK5CYII="/>
+<link rel="stylesheet" href="assets/vendor-1537435557394.css">
+<link rel="stylesheet" href="assets/ir-app-1537435557394.css">
+<link rel="stylesheet" href="assets/css/animate-1537435557394.css">
+<link href="assets/font-awesome/css/font-awesome-1537435557394.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="ember-app-root">
+  
+
+  <script src="assets/vendor-1537435557394.js" defer></script>
+  <script src="assets/ir-app-1537435557394.js" defer></script>
+
+  
+</div>
+
+<script>
+  function updateWrapperInfo(param) {
+    
+    localStorage.setItem('host_version', JSON.stringify(param));
+
+  }
+
+
+
+
+</script>
+</body>
+</html>
